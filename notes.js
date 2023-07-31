@@ -115,6 +115,20 @@ PROPS ARE IMMUTABLE : Their value cannot be changed
 */
 
 /*//? State
+Another way to influence what renders on screen
+
+props vs state
+        Props get passed to component
+        Immutable
+
+        props in Functional Components 
+        & 
+        this.props in Class Components
+
+        State is managed within component
+        State can be changed!
+        useState hook & Class Components
+
 */
 
 /*//? setState
