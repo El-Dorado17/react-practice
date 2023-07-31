@@ -1,3 +1,21 @@
+/* //? 1 - Intro
+
+    What is React? 
+        Library, not a framework, focused on UI
+
+        *REACT EXPRESSES STATE AS HTML*                 //misc notes:
+                                                        UseEffect Observes
+                                                        UseState Establishes
+
+                                                        (function to run) = {updates state variable} 
+                                                        [state to observe]
+                                                        - state flows downward -
+*/
+
+/* //? 2 - Hello World
+(deleted most of App.js to observe direct changes on DOM)
+*/
+
 /* //? 3 - FOLDER STRUCTURE
 
 1 - DOM Renders public/index.html
@@ -23,9 +41,6 @@
                     ^--CODE 
 */
 
-
-
-
 /* //? 4 - COMPONENT TYPES
 
 1 - Stateless Functional Components
@@ -46,8 +61,6 @@
  components - reusable code and can be nested within other components. building blocks of react projects
 */
 
-
-
 /* //? 5 - FUNCTINONAL COMPONENTS
 
     Javascript function accepts input of propertues and returns HTML that describes UI 
@@ -55,3 +68,22 @@
 **SEE GREET.JS FOR EXAMPLES AND EXPLANATIONS**
 */
 
+/*//? 6 - CLASS COMPONENTS
+
+Class Components are ES6 Classes components that can receive props as input and output html/jsx
+    -It can maintain private internal state (meaning it can keep 
+        information private to that component and describe UI)
+
+    FUNCTIONAL VS CLASS
+            
+        Functional
+            -Simple functions; use as much as possible
+            -no need for 'this' keyword
+            -Mainly responsible for UI - no need to keep track of state; makes debug easier
+
+        Class
+            -More feature-rich (complex UI logic)
+            -Maintain their own state
+            -provide lifecycle hooks??
+
+*/
