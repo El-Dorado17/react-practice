@@ -1,5 +1,4 @@
-/*
-
+/* //? 3 - FOLDER STRUCTURE
 1 - DOM Renders public/index.html
 
 2 - index.html contains <div id="root"></div>
@@ -21,7 +20,33 @@
             ^--index.js
                 ^--App.js
                     ^--CODE 
+*/
 
 
+
+
+/* //? 4 - COMPONENT TYPES
+
+1 - Stateless Functional Components
+            SFC's are literally Javascript functions:
+                function Welcome(props){
+                    return <h1> Hello, {props.name} <h1>
+                }
+
+2 - Stateful Class Component
+            ES6 Classes that MUST contain a render method that returns HTML:
+                class Welcome extends React.Component {
+                    render() {
+                        return <h1> Hello, {this.props.name} <h1>
+                    }
+                }
+                //* I am unfamiliar with classes
+    
+ components - reusable code and can be nested within other components. building blocks of react projects
+*/
+
+
+
+/* //? 5 - FUNCTINONAL COMPONENTS
 
 */
