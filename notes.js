@@ -104,6 +104,14 @@ JSX condenses space - cleaner and more readable code
 */
 
 /*//? Props
+props is short for properties - optional input component can accept
+
+When specifying a component, you can include additional attributes and render them dynamically
+
+Functional Component uses props.attribute (see Greet.js)
+Class Component uses this.props.attribute (see Welcome.js)
+
+PROPS ARE IMMUTABLE : Their value cannot be changed
 */
 
 /*//? State

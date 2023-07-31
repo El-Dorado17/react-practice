@@ -4,7 +4,14 @@ import React from "react"; //Always import React
 //     return <h1>Hello, Ely</h1>
 // }
 
-export const Greet = () => <h1>Hello, Ely</h1>
+const Greet = props => {
+    return(
+        <div>
+            <h1>Hello, {props.name} a.k.a. {props.heroName}</h1>
+            {props.children}
+        </div>
+    ) 
+}
 
 export default Greet
  //default export allows us to change the component name to WHATEVER we want in the module we call it in 
