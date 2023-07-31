@@ -87,3 +87,31 @@ Class Components are ES6 Classes components that can receive props as input and 
             -provide lifecycle hooks??
 
 */
+
+/*//? 7 - HOOKS UPDATE
+        (the video notes above were from BEFORE React introduced Hooks)
+        Hooks allows us to USE STATE //!WITHOUT WRITING A CLASS
+        so basically I need a different tutorial video for hooks once I'm done with this tutorial
+        to understand what hooks help us with!
+        He goes into hooks later anyway! All is well
+*/
+
+/*//? 8 - JSX
+Extension to Javascript that mixes XML into JavaScript
+JSX makes code simpler and familiar & ultimately transpiles to pure JScript in browser
+
+JSX condenses space - cleaner and more readable code
+*/
+
+/*//? Props
+*/
+
+/*//? State
+*/
+
+/*//? setState
+*/
+
+/*//? Destructuring Props & State
+*/
+
