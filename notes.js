@@ -1,4 +1,5 @@
 /* //? 3 - FOLDER STRUCTURE
+
 1 - DOM Renders public/index.html
 
 2 - index.html contains <div id="root"></div>
@@ -49,4 +50,8 @@
 
 /* //? 5 - FUNCTINONAL COMPONENTS
 
+    Javascript function accepts input of propertues and returns HTML that describes UI 
+
+**SEE GREET.JS FOR EXAMPLES AND EXPLANATIONS**
 */
+
