@@ -144,7 +144,9 @@ props vs state
 
 */
 
-/*//? setState
+/*//? 11 - setState
+installed react snippets extension
+
 */
 
 /*//? Destructuring Props & State
