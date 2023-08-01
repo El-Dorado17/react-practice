@@ -147,6 +147,9 @@ props vs state
 /*//? 11 - setState
 installed react snippets extension
 
+Don't update state directly; make function that manipulates it with this.setState (see Counter..js)
+AND work off of the previous state if it's continuous updating/manipulation. (previousState + 1)
+
 */
 
 /*//? Destructuring Props & State
