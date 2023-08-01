@@ -152,6 +152,8 @@ AND work off of the previous state if it's continuous updating/manipulation. (pr
 
 */
 
-/*//? Destructuring Props & State
+/*//? 12 - Destructuring Props & State
+
+Basically having the prop local rather than in a different module
 */
 
