@@ -103,7 +103,7 @@ JSX makes code simpler and familiar & ultimately transpiles to pure JScript in b
 JSX condenses space - cleaner and more readable code
 */
 
-/*//? Props
+/*//? 9 - Props
 props is short for properties - optional input component can accept
 
 When specifying a component, you can include additional attributes and render them dynamically
@@ -114,20 +114,33 @@ Class Component uses this.props.attribute (see Welcome.js)
 PROPS ARE IMMUTABLE : Their value cannot be changed
 */
 
-/*//? State
+/*//? 10 - State
 Another way to influence what renders on screen
 
 props vs state
-        Props get passed to component
-        Immutable
+        
+        A)Props get passed to component
+        B)Immutable
 
-        props in Functional Components 
-        & 
-        this.props in Class Components
+        C)  props in Functional Components 
+            & 
+            this.props in Class Components
 
-        State is managed within component
-        State can be changed!
-        useState hook & Class Components
+
+        A)State is managed within component
+        B)State can be changed!
+        
+        C)  useState hook Functional Components
+            this.state Class Components
+
+        Ultimately both hold info for the UI
+
+        state is an object privately maintained inside a component
+
+        setState sets state in a class component
+
+        In this video we manipulated state with an event-handler (onClick) (See Message.js)
+
 
 */
 

@@ -1,14 +1,16 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greet'; //to see why this is named TACO, see Greet.js
-import Welcome from './components/Welcome';
-import Hello from './components/Hello';
+//import Greet from './components/Greet'; //to see why this is named TACO, see Greet.js
+//import Welcome from './components/Welcome';
+//import Hello from './components/Hello';
+import Message from './components/Message';
 
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Bruce" heroName="Batman"> 
+      <Message/>
+      {/*<Greet name="Bruce" heroName="Batman"> 
         <p>This is children props</p> 
       </Greet>
       <Greet name="Clark" heroName="Superman">
@@ -19,7 +21,7 @@ function App() {
       <Welcome name="Bruce" heroName="Batman"/>
       <Welcome name="Clark" heroName="Superman"/>
       <Welcome name="Diana" heroName="Wonder Woman"/>
-      {/* <Hello/> */}
+      <Hello/> */}
     </div>
   );
 }
