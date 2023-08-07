@@ -158,7 +158,7 @@ Basically having the prop local rather than in a different module
 */
 
 /*//? 13 - EventHandling
-
+        see ClassClick and FunctionClick modules
 
 */
 
