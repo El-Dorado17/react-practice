@@ -38,7 +38,7 @@
       ^--index.html
             ^--index.js
                 ^--App.js
-                    ^--CODE 
+                    ^--COMPONENTS that contain logic
 */
 
 /* //? 4 - COMPONENT TYPES
@@ -155,5 +155,10 @@ AND work off of the previous state if it's continuous updating/manipulation. (pr
 /*//? 12 - Destructuring Props & State
 
 Basically having the prop local rather than in a different module
+*/
+
+/*//? 13 - EventHandling
+
+
 */
 
