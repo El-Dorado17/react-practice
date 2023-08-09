@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+import Random from './components/random/Random';
 //import Greet from './components/Greet'; //to see why this is named TACO, see Greet.js
 //import Welcome from './components/Welcome';
 //import Hello from './components/Hello';
@@ -13,6 +14,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Random/>
     </div>
   );
 }
