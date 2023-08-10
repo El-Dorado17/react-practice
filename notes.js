@@ -201,4 +201,23 @@ function Counter() {
 }
 
 
+
+
+useEffect
+    typically watches for something (in the dependency array)
+    to change, so that the EFFECT can be executed
+
+    For example:
+
+    useEffect(()=>{
+        side effect goes here (i.e. change everything to yellow)
+    } [dependencies]) (i.e. when the state changes)
+
+
+useContext, and useReducer
+
+small project
+state management
+api integraion
+
 */
