@@ -221,3 +221,42 @@ state management
 api integraion
 
 */
+
+
+/* //! TODO LIST BENCHMARKS:
+
+
+Set up your React environment if you haven't already.
+
+Component Structure:
+
+Create the main component that will hold the to-do list. Inside this component, you'll create subcomponents for the task list, task items, and input form.
+
+State Management:
+
+Use useState to manage the list of tasks. Initialize the state with an empty array. Each task should have properties like an ID, task text, and a boolean flag for completion status.
+
+Input Form:
+
+Create an input form where users can type in their task and submit it. Use the onChange event to update the input value in the state as the user types.
+
+Adding Tasks:
+
+Implement the logic to add tasks to the list. When the form is submitted, update the state to include the new task. Don't forget to clear the input field after submission.
+
+Task List:
+
+Create a component to render the list of tasks. Map through the array of tasks in the state and display each task. You can also provide buttons to mark tasks as completed and remove tasks.
+
+Completing and Removing Tasks:
+
+Implement functionality to mark tasks as completed and remove them from the list. Update the task's completion status in the state when the user clicks on a checkbox. Also, handle task removal when the user clicks on a "Delete" button.
+
+Effects for Local Storage:
+
+Use useEffect to save and load the tasks to/from the browser's local storage. This way, the tasks will be preserved even if the user refreshes the page.
+
+Remember, the goal of this project is to practice using useState and useEffect. While the project itself is relatively simple, you can experiment and expand on it by adding features like editing tasks, filtering tasks by completion status, or applying some basic styling.
+
+As you work on this project, you'll gain a better understanding of how to manage state, handle updates, and implement simple user interactions using React hooks.
+*/
