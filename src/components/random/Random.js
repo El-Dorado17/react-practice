@@ -1,21 +1,20 @@
 import React, { Component } from 'react'
 
-export class Random extends Component {
+function Random () {
 
-    function functionName(){
-        console.log('1')
+    const greet =()=>{
+        alert('Aye!')
     }
-
-  render(){
     return (
       <div>
-        <button onClick={functionName}> Click Me?</button>
+        <button onClick={greet}> Click Me?</button>
       </div>
-    )
-  }
+  )
 }
 
 export default Random
 
 //Okay I tried to do this on my own without a guide or tutorial and am failing
 //I will look at it tomorrow!
+//*GOT IT
+

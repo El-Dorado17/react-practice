@@ -186,3 +186,19 @@ Basically having the prop local rather than in a different module
 
 
 */
+
+
+//! Shortcut for writing a functional component: rfc + tab
+
+/* //* Use State:
+
+Fundamental hook allows us to add state to functional components. //! Class-based are pretty old and outdated
+
+function Counter() {
+  const [count, setCount] = useState(0); // Initial value is 0
+    'count' is the current state value
+    'setCount' is the function to update the state
+}
+
+
+*/
