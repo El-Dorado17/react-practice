@@ -10,8 +10,24 @@ export function Random() {
     setCount (count + 1 )
   }
 
+  const decrement = () =>{
+    setCount (count - 1)
+  }
+
+  const five = () =>{
+    setCount (count + 5)
+  }
+
+  const timesFive = () =>{
+    setCount (count * 5)
+  }
+
   const reset = () =>{
     setCount(0)
+  }
+
+  const oops = () =>{
+    alert('Effective. Power   لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ 冗')
   }
 
   useEffect(()=>{
@@ -22,9 +38,17 @@ export function Random() {
 
 return (
     <div>
-      <p>How many times I have practiced React this week:</p>
+      <p>Look I built this counter!:</p>
       <h3>{count}</h3>
       <button onClick={increment}>Increment Button</button>
+      <br/>
+      <button onClick={decrement}>Decrement</button>
+      <br/>
+      <br/>
+      <button onClick={five}>+5</button> <button onClick={timesFive}>x5</button> 
+      <br/>
+      <button onClick={oops}>Dont click this</button> 
+      <br/>
       <br/>
       <button onClick={reset}>Reset Count</button>
     </div>
