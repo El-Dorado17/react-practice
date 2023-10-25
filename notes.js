@@ -223,11 +223,8 @@ api integraion
 */
 
 
-
-
-//? Really would like to incorporate a counter 
-
 /*
+? COUNTER
 usestate and useeffect
 
 function ViewCounter() {
@@ -251,7 +248,4 @@ useEffect(() => {
     localStorage.setItem('viewCount', viewCount.toString());
 }, [viewCount]);
 
-
 */
-
-//! FOR MONDAY: Practice the coffee application problem 
