@@ -234,20 +234,20 @@ function ViewCounter() {
     const [viewCount, setViewCount] = useState(0);
 
 useEffect(() => {
-    // Get the current view count from local storage
+    /Get the current view count from local storage
     const storedViewCount = localStorage.getItem('viewCount');
 
-    // If a view count is stored, update the state with it
+    / If a view count is stored, update the state with it
     if (storedViewCount) {
         setViewCount(parseInt(storedViewCount));
     } else {
-      // If no view count is stored, initialize it to 0
+        / If no view count is stored, initialize it to 0
         setViewCount(0);
     }
 }, []);
 
 useEffect(() => {
-    // Update the view count in local storage
+    / Update the view count in local storage
     localStorage.setItem('viewCount', viewCount.toString());
 }, [viewCount]);
 
