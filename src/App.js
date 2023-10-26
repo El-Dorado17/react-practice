@@ -1,4 +1,41 @@
 
+
+export default function App () {
+    return(
+        <>
+            <form className="new-item-form">
+            </form>
+            <h1 className="header">To-Do List</h1>
+        </>
+    )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //! TODO LIST CODE FOR PRACTICE
 // import React, {useState} from "react";
 // import './App.css';
